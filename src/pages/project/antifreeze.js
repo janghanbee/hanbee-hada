@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactPlayer from 'react-player/lazy';
+// import ReactPlayer from 'react-player/lazy';
 
 const Antifreeze = () => {
   return (
     <div>
-      <h1 className="header">Kinetic Typography - ANTIFREEZE</h1>
+      {/* <h1 className="header">Kinetic Typography - ANTIFREEZE</h1>
       <div className="project-container">
         <div className="project-textbox">
             <div className="project-description">
@@ -19,7 +19,7 @@ const Antifreeze = () => {
                 </div>
             </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
