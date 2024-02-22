@@ -1,0 +1,27 @@
+.Navbar {
+  text-align: center;
+}
+.Navlinks {
+  list-style: none;
+  display: inline-block;
+}
+
+.Navlinks li {
+  float: left;
+  padding: 0 140px;
+  line-height: 80px;
+}
+
+.Navlinks li a {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Navlinks li a:hover {
+  color: #000000;
+  font-weight: 320;
+}
+  
