@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './home.css';
+import { BrowserView, MobileView } from 'react-device-detect'
 
 const Home = () => {
   const [profession, setProfession] = useState("developer");
@@ -10,6 +11,7 @@ const Home = () => {
 
   return (
     <div>
+      <BrowserView>
       <div className="title-container">
         <img src="img/mainImage.png" alt="Hanbee Jang" className="title-image" />
         <div className="title-textbox"><div className="title">I'm a {profession}<br />Hanbee Jang</div></div>
@@ -26,6 +28,10 @@ const Home = () => {
           <span className="highlight-reverse">web development</span> and <span className="highlight">computer graphics</span>
         </div></div>
       </div>
+      </BrowserView>
+      <MobileView>
+        mobile browser test
+      </MobileView>
     </div>
   );
 };
