@@ -1,13 +1,18 @@
 .Navbar {
   text-align: center;
 }
+
 .Navlinks {
   list-style: none;
   display: inline-block;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .Navlinks li {
-  float: left;
+  width: 80px;
   padding: 0 140px;
   line-height: 80px;
 }

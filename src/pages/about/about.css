@@ -13,7 +13,7 @@
   
   .table-of-contents {
     position: fixed;
-    transform: translate(140px, 0px); 
+    transform: translate(10vw, 0px); 
   }
   
   .table-of-contents h2 {
@@ -42,8 +42,9 @@
   }
   
   .content {
-    margin-left: 440px; /* Adjust this value according to the width of your table of contents */
-    width: 800px;
+    margin-left: 30vw;
+    /* width: 800px; */
+    margin-right: 10vw;
 
   }
   

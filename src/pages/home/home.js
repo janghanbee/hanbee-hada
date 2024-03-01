@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './home.css';
-import { BrowserView, MobileView } from 'react-device-detect'
+// import { BrowserView, MobileView } from 'react-device-detect'
 
 const Home = () => {
   const [profession, setProfession] = useState("developer");
@@ -11,10 +11,11 @@ const Home = () => {
 
   return (
     <div>
-      <BrowserView>
       <div className="title-container">
-        <img src="img/mainImage.png" alt="Hanbee Jang" className="title-image" />
-        <div className="title-textbox"><div className="title">I'm a {profession}<br />Hanbee Jang</div></div>
+        <div className="title-box">
+          <img src="img/mainImage.png" alt="Hanbee Jang" className="title-image" />
+          <div className="title">I'm a {profession}<br />Hanbee Jang</div>
+        </div>
       </div>
       <div className="box-container">
         <div className="box" id="box1" onMouseEnter={() => handleHover("developer")}>DEVELOPER</div>
@@ -28,10 +29,6 @@ const Home = () => {
           <span className="highlight-reverse">web development</span> and <span className="highlight">computer graphics</span>
         </div></div>
       </div>
-      </BrowserView>
-      <MobileView>
-        mobile browser test
-      </MobileView>
     </div>
   );
 };

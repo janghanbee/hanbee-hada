@@ -1,17 +1,20 @@
 .title-container {
     display: flex;
     justify-content: center;
+    /* display: inline-block; */
 }
 
 .title-image {
     width: 1200px;
     position: absolute;
+    justify-content: center;
 }
 
-.title-textbox {
+.title-box {
     width: 1200px;
     height: 370px;
     display: flex;
+    margin: 0 10vw;
 }
 
 .title {
@@ -19,10 +22,14 @@
     font-size: 85px;
     font-weight: 300;
     padding: 70px 100px;
+    width: 800px;
     display: flex;
 }
 
 .box-container {
+    /* width: 1200px; */
+    /* margin: 0 10vw; */
+    /* display: inline-block; */
     display: flex;
     justify-content: center;
     transform: translate(0, -50px); 
@@ -80,6 +87,8 @@
 .subtitle-container {
     display: flex;
     justify-content: center;
+    margin: 0 10vw;
+    /* display: inline-block; */
 }
 
 .subtitle-textbox {
