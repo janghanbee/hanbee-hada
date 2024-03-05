@@ -21,7 +21,7 @@ const Project = () => {
         </Link>
         <Link to="/beer" className="project-box">
           <img src="img/beer.png" alt="beer" />
-          <p>beer</p>
+          <p>Beer Recommendation</p>
         </Link>
         <Link to="/dearestFriend" className="project-box">
           <img src="img/dearestFriend.png" alt="dearestFriend" />
@@ -46,12 +46,8 @@ const Project = () => {
         </Link>
         <Link to="/gsDCQG" className="project-box">
           <img src="img/gsDCQG.png" alt="gsDCQG" />
-          <p>NLP</p>
+          <p>Question Generation</p>
         </Link>
-        {/* <Link to="/soloTravel" className="project-box">
-          <img src="img/soloTravel.png" alt="soloTravel" />
-          <p>Solo Travel</p>
-        </Link> */}
         <Link to="/rollingRolling" className="project-box">
           <img src="img/rollingRolling.png" alt="Rolling Rolling" />
           <p>Rolling Rolling</p>
@@ -60,14 +56,6 @@ const Project = () => {
           <img src="img/overTheDoor.png" alt="Over The Door" />
           <p>Over The Door</p>
         </Link>
-        {/* <Link to="/sittie" className="project-box">
-          <img src="img/sittie.png" alt="sittie" />
-          <p>sittie</p>
-        </Link> */}
-        {/* <Link to="/timeBubble" className="project-box">
-          <img src="img/timeBubble.png" alt="Time Bubble" />
-          <p>Time Bubble</p>
-        </Link> */}
       </div>
     </div>
   );
