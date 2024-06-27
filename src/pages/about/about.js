@@ -85,7 +85,7 @@ const About = () => {
             <span className="highlight-bold">KAIST</span> (Korea Advanced Institute of Science and Technology) <br></br>
             School of Computing (Major) <br></br>
             Industrial Design (Double Major) <br></br>
-            <div className="highlight-gray">GPA 3.89/4.3</div>
+            <div className="highlight-gray">GPA 3.91/4.3</div>
           </p>
         </section>
       </div>
